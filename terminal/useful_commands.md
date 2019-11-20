@@ -1,4 +1,4 @@
-## Useful terminal commands
+# Useful terminal commands
 
 `ls` - show the contents of the directory (folder) you are in
 
@@ -6,7 +6,8 @@
 
 `cd` - move to a directory.
 
-Special uses of `cd`:
+### Special uses of `cd`:
+
 `cd ..` - takes you to the directory which is the parent of the directory you are in (`..` always means "parent directory")
 `cd .` - takes you to the directory you are in (`.` always means "current directory")
 `cd ~` - takes you to your home directory ( `~` always means the "home directory"; this is the directory where the `Documents`, `Downloads`, `Desktop`, etc. directories are located)
@@ -15,7 +16,7 @@ Special uses of `cd`:
 
 ------------
 
-### Examples
+## Examples
 For example, let's say you have a folder called `c_folder`, which is located within a folder called `b_folder`. And `c_folder` has a folder inside of it called `d_folder`.
 
 If you're in `c_folder`, then running `cd d_folder` will take you inside of `d_folder`. Since you are now inside of `d_folder`, running `cd ..` will take you back to `c_folder`.
