@@ -9,8 +9,11 @@
 ### Special uses of `cd`:
 
 `cd ..` - takes you to the directory which is the parent of the directory you are in (`..` always means "parent directory")
+
 `cd .` - takes you to the directory you are in (`.` always means "current directory")
+
 `cd ~` - takes you to your home directory ( `~` always means the "home directory"; this is the directory where the `Documents`, `Downloads`, `Desktop`, etc. directories are located)
+
 `cd /` - takes you the root directory (`/` always means root directory; this is the top-level directory in your computer; it has no parent).
 
 
